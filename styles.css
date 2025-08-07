@@ -6,8 +6,8 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #faf0e6;
-    color: #8b4513;
+    background-color: #f8f9fa;
+    color: #333333;
     line-height: 1.6;
 }
 
@@ -15,22 +15,22 @@ body {
     max-width: 900px;
     margin: 0 auto;
     padding: 40px;
-    background-color: #fff;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
     min-height: 100vh;
 }
 
 .header {
-    background-color: #ffe4b5;
+    background-color: #f8f9fa;
     border-radius: 15px;
     padding: 30px;
     text-align: center;
     margin-bottom: 30px;
-    border: 2px solid #deb887;
+    border: 2px solid #e9ecef;
 }
 
 .header h1 {
-    color: #a0522d;
+    color: #2c3e50;
     font-size: 2.5em;
     font-weight: 700;
     margin-bottom: 15px;
@@ -46,7 +46,7 @@ body {
 
 .contact-info span {
     font-size: 14px;
-    color: #654321;
+    color: #495057;
     font-weight: 500;
 }
 
@@ -57,9 +57,9 @@ body {
 }
 
 section h2 {
-    color: #8b4513;
+    color: #2c3e50;
     font-size: 1.8em;
-    border-bottom: 3px solid #a0522d;
+    border-bottom: 3px solid #3498db;
     padding-bottom: 8px;
     margin-bottom: 20px;
     text-transform: uppercase;
@@ -69,20 +69,20 @@ section h2 {
 .summary p {
     font-size: 16px;
     text-align: justify;
-    color: #654321;
+    color: #495057;
     font-weight: 500;
 }
 
 .education-item {
     margin-bottom: 25px;
     padding: 20px;
-    background-color: #fdf5e6;
+    background-color: #f8f9fa;
     border-radius: 10px;
-    border-left: 4px solid #cd853f;
+    border-left: 4px solid #3498db;
 }
 
 .education-item h3 {
-    color: #b22222;
+    color: #2c3e50;
     font-size: 1.3em;
     margin-bottom: 10px;
     font-weight: 600;
@@ -103,13 +103,13 @@ section h2 {
 
 .date {
     font-style: italic;
-    color: #696969;
+    color: #6c757d;
 }
 
 .grade {
     font-weight: 700;
-    color: #228b22;
-    background-color: #f0fff0;
+    color: #28a745;
+    background-color: #d4edda;
     padding: 2px 8px;
     border-radius: 4px;
 }
@@ -121,17 +121,17 @@ section h2 {
 }
 
 .skill-category {
-    background-color: #fdf5e6;
+    background-color: #f8f9fa;
     padding: 20px;
     border-radius: 10px;
-    border: 1px solid #deb887;
+    border: 1px solid #e9ecef;
 }
 
 .skill-category h4 {
-    color: #b22222;
+    color: #2c3e50;
     margin-bottom: 15px;
     font-size: 1.1em;
-    border-bottom: 2px solid #cd853f;
+    border-bottom: 2px solid #3498db;
     padding-bottom: 5px;
 }
 
@@ -141,7 +141,7 @@ section h2 {
 
 .skill-category li {
     padding: 4px 0;
-    color: #654321;
+    color: #495057;
     font-weight: 500;
     position: relative;
     padding-left: 15px;
@@ -149,21 +149,21 @@ section h2 {
 
 .skill-category li::before {
     content: "▸";
-    color: #cd853f;
+    color: #3498db;
     position: absolute;
     left: 0;
 }
 
 .project {
-    background-color: #fdf5e6;
+    background-color: #f8f9fa;
     padding: 25px;
     border-radius: 15px;
     margin-bottom: 25px;
-    border: 2px solid #deb887;
+    border: 2px solid #e9ecef;
 }
 
 .project h3 {
-    color: #b22222;
+    color: #2c3e50;
     font-size: 1.4em;
     margin-bottom: 10px;
     font-weight: 600;
@@ -179,13 +179,13 @@ section h2 {
 }
 
 .tech-stack {
-    color: #8b4513;
+    color: #495057;
     font-weight: 600;
     font-style: italic;
 }
 
 .project-date {
-    background-color: #cd853f;
+    background-color: #3498db;
     color: white;
     padding: 4px 12px;
     border-radius: 20px;
@@ -200,29 +200,29 @@ section h2 {
 
 .project-details li {
     margin-bottom: 8px;
-    color: #654321;
+    color: #495057;
     font-weight: 500;
 }
 
 .technologies {
     margin-top: 15px;
     padding: 10px;
-    background-color: #fff8dc;
+    background-color: #e3f2fd;
     border-radius: 8px;
     font-size: 14px;
-    color: #654321;
+    color: #495057;
 }
 
 .experience-item {
-    background-color: #fdf5e6;
+    background-color: #f8f9fa;
     padding: 20px;
     border-radius: 10px;
     margin-bottom: 20px;
-    border-left: 4px solid #cd853f;
+    border-left: 4px solid #3498db;
 }
 
 .experience-item h3 {
-    color: #b22222;
+    color: #2c3e50;
     font-size: 1.3em;
     margin-bottom: 10px;
     font-weight: 600;
@@ -239,11 +239,11 @@ section h2 {
 
 .company {
     font-weight: 600;
-    color: #8b4513;
+    color: #495057;
 }
 
 .duration {
-    color: #696969;
+    color: #6c757d;
     font-style: italic;
     font-size: 14px;
 }
@@ -255,7 +255,7 @@ section h2 {
 
 .responsibilities li {
     margin-bottom: 6px;
-    color: #654321;
+    color: #495057;
     font-weight: 500;
 }
 
@@ -265,7 +265,7 @@ section h2 {
 
 .achievements-list li {
     margin-bottom: 10px;
-    color: #654321;
+    color: #495057;
     font-weight: 500;
 }
 
@@ -316,15 +316,15 @@ section h2 {
     }
     
     .header {
-        background-color: #f5f5f5;
-        border: 1px solid #ccc;
+        background-color: #f8f9fa;
+        border: 1px solid #dee2e6;
     }
     
     .project,
     .education-item,
     .experience-item,
     .skill-category {
-        background-color: #f9f9f9;
-        border: 1px solid #ddd;
+        background-color: #f8f9fa;
+        border: 1px solid #dee2e6;
     }
 }
